@@ -1,0 +1,144 @@
+/* ==========================================================================
+   SalesIQ — Enterprise BI Design System CSS
+   Clean, light-themed executive dashboard styling
+   ========================================================================== */
+
+/* Main Container & Layout */
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1400px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #0F172A !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* KPI Card Grid & Styling */
+.kpi-container {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 16px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.kpi-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.kpi-title {
+    color: #64748B;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.kpi-value {
+    color: #0F172A;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.kpi-delta-positive {
+    color: #059669;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.kpi-delta-negative {
+    color: #DC2626;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.kpi-delta-neutral {
+    color: #64748B;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* Insight Cards */
+.insight-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin-bottom: 16px;
+    border-left: 5px solid #2563EB;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.insight-card.critical {
+    border-left-color: #DC2626;
+    background-color: #FEF2F2;
+}
+
+.insight-card.warning {
+    border-left-color: #D97706;
+    background-color: #FFFBEB;
+}
+
+.insight-card.positive {
+    border-left-color: #059669;
+    background-color: #F0FDF4;
+}
+
+.insight-card.info {
+    border-left-color: #2563EB;
+    background-color: #EFF6FF;
+}
+
+.insight-header {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 8px;
+}
+
+.insight-section-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #475569;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.insight-body {
+    font-size: 0.92rem;
+    color: #334155;
+    line-height: 1.5;
+}
+
+/* Data Quality Table & Badges */
+.badge-clean {
+    background-color: #DCFCE7;
+    color: #166534;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badge-flagged {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
