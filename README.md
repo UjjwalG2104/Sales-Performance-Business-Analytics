@@ -9,6 +9,7 @@
 
 **SalesIQ** is an end-to-end sales analytics, data engineering, and business intelligence platform built for fresher Data Analysts, BI professionals, and analytics engineers. It transforms raw, imperfect retail transactional records into executive-grade KPI scorecards, interactive multidimensional dashboards, relational SQL data warehouses, automated 4-pillar business insights, and holdout-validated machine learning forecasts—all formatted in **Indian Rupees (₹ INR)** with native Indian number grouping.
 
+Live Dashboard: https://salesiq-analytics.streamlit.app/
 ---
 
 ## 1. Key Highlights & Architectural Features
